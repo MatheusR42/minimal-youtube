@@ -104,6 +104,24 @@ html.minial-youtube #columns #secondary {
     display: none;
 }
 
+/* code to show playlist panel when it is a video from a playlist */
+html.minial-youtube #columns #secondary #secondary-inner > * {
+    display: none;
+}
+
+html.minial-youtube #columns #secondary #secondary-inner > #playlist {
+    display: block;
+}
+
+html.minial-youtube #columns #secondary:has(ytd-playlist-panel-video-renderer) { 
+    display: flex;
+}
+
+html.minial-youtube #columns.ytd-watch-flexy:has(ytd-playlist-panel-video-renderer) {
+    align-items: flex-start;
+}
+/* code to show playlist panel when is a video from a playlist */
+
 html.minial-youtube #columns #primary {
     max-width: fit-content;
 }
