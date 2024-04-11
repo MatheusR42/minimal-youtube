@@ -137,10 +137,6 @@ html.minimal-youtube [class="style-scope ytd-comments"] {
     display: none !important;
 }
 
-html.minimal-youtube #page-manager {
-    margin-left: 0 !important;
-}
-
 html.minimal-youtube .ytp-chrome-bottom {
     width: calc(98%) !important;
 }
